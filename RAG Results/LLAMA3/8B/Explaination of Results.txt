@@ -1,0 +1,4 @@
+llama3-8b-no-db-7-11.csv provides the reported results in the poster for the performance of the LLM without the vector database as additional context.
+
+llama3-8b-vdb-7-12.csv provides the reported poster results for the performance of the LLM with the vector database. Note that 4 examples are excluded from
+this calculation because 4 examples had a Groq LLM API issue that prevented evaluation of this code. 

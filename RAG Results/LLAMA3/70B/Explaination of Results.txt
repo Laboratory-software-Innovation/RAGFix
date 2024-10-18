@@ -1,0 +1,20 @@
+For llama3-70b-no-db-7-15: 
+- 45 out of 164 examples failed
+- 72.5% accuracy 
+- This result is the result reported in the Poster 
+
+For llama3-70b-no-db-7-10: 
+- 59 out of 164 examples failed 
+- More examples failed than in the above example due to code evaluation bugs that caused a few errors including import errors. 
+- 64% accuracy
+
+For llama3-70b-vdb-7-15: 
+- 47 out of 164 examples failed 
+- LLM fails to import correctly
+- 71.3% accuracy 
+
+For llama3-70b-vdb-7-16: 
+- 36 out of 164 examples failed
+- This example utilizes import postprocessing fixing 
+- 78% percent accuracy
+- This result is the result reported in the poster
